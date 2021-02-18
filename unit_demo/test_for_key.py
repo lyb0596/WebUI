@@ -26,7 +26,7 @@ class TestForKey(unittest.TestCase):
     def test_2(self):
         self.tk.input_text('id', 'kw', 'abc')
         self.tk.clicek_element('id', 'su')
-        sleep(3)
+        sleep(1)
 
 if __name__ == '__main__':
     unittest.main()
